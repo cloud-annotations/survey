@@ -5,7 +5,7 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/mgutz/ansi"
+	"github.com/augustoroman/ansi"
 )
 
 // DisableColor can be used to make testing reliable

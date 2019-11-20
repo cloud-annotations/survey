@@ -13,7 +13,7 @@ go get -u github.com/mgutz/ansi
 ## Example
 
 ```go
-import "github.com/mgutz/ansi"
+import "github.com/augustoroman/ansi"
 
 // colorize a string, SLOW
 msg := ansi.Color("foo", "red+b:white")
