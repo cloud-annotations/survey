@@ -9,10 +9,10 @@ os:
   - osx
   - windows
 
-go_import_path: github.com/AlecAivazis/survey/v2
+go_import_path: github.com/cloud-annotations/survey
 
 before_install:
-  - go get github.com/alecaivazis/run
+  - go get github.com/cloud-annotations/run
 
 install: []
 

@@ -3,8 +3,8 @@ package survey
 import (
 	"fmt"
 
-	"github.com/AlecAivazis/survey/v2/core"
-	"github.com/AlecAivazis/survey/v2/terminal"
+	"github.com/cloud-annotations/survey/core"
+	"github.com/cloud-annotations/survey/terminal"
 )
 
 /*

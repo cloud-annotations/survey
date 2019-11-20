@@ -1,7 +1,7 @@
 # Survey
 
-[![Build Status](https://travis-ci.org/AlecAivazis/survey.svg?branch=feature%2Fpretty)](https://travis-ci.org/AlecAivazis/survey)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://godoc.org/github.com/AlecAivazis/survey)
+[![Build Status](https://travis-ci.org/cloud-annotations/survey.svg?branch=feature%2Fpretty)](https://travis-ci.org/cloud-annotations/survey)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://godoc.org/github.com/cloud-annotations/survey)
 
 A library for building interactive prompts.
 
@@ -12,7 +12,7 @@ package main
 
 import (
     "fmt"
-    "github.com/AlecAivazis/survey/v2"
+    "github.com/cloud-annotations/survey"
 )
 
 // the questions to ask
@@ -83,9 +83,9 @@ Examples can be found in the `examples/` directory. Run them
 to see basic behavior:
 
 ```bash
-go get github.com/AlecAivazis/survey
+go get github.com/cloud-annotations/survey
 
-cd $GOPATH/src/github.com/AlecAivazis/survey
+cd $GOPATH/src/github.com/cloud-annotations/survey
 
 go run examples/simple.go
 go run examples/validation.go
@@ -331,7 +331,7 @@ looks for with `WithHelpInput`:
 
 ```golang
 import (
-    "github.com/AlecAivazis/survey/v2"
+    "github.com/cloud-annotations/survey"
 )
 
 number := ""
@@ -350,7 +350,7 @@ follows the patterns outlined [here](https://github.com/mgutz/ansi#style-format)
 
 ```golang
 import (
-    "github.com/AlecAivazis/survey/v2"
+    "github.com/cloud-annotations/survey"
 )
 
 number := ""
